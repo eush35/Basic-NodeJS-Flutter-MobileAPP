@@ -10,6 +10,9 @@ It is an e-commerce application that I developed with Flutter and runs on a web 
  - Dart 3.0.0
  - Android Studio
 
+## Screenshots
+
+![App Screenshot](https://redhopecommunity.com/mobilapp.png)
 
 ## API Reference
 
