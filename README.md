@@ -1,16 +1,34 @@
-# mobilprogramlama
 
-Mobil Programlama Final Görevi - 194411032 - Emre UĞUR
+# Basic e-Commerce Mobile APP with Flutter
 
-## Getting Started
+It is an e-commerce application that I developed with Flutter and runs on a web api that runs on a local network. The application includes user registration, user login, user control, homepage, categories, products and cart screen. The amount of products contained in the basket can be controlled.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Requirements
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+ - Flutter 3.10.0
+ - Dart 3.0.0
+ - Android Studio
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## API Reference
+
+#### Example Usage Tutorial
+
+```http
+  GET /categories
+```
+```http
+  POST /category/create
+```
+```http
+  DELETE /category/delete/:id
+```
+```http
+  PUT /category/update/:id
+```
+
+
+
+
+
